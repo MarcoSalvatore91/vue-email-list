@@ -27,4 +27,8 @@ const email = new Vue({
 
     },
 
+    mounted() {
+        this.randomEmail()
+    }
+
 })
