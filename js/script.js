@@ -19,6 +19,12 @@ const email = new Vue({
             }
             )},
 
+        randomEmail () {
+            for(let i = 0; i < this.totalEmail; i++){
+                this.getRandomEmail();
+            }
+        }
+
     },
 
 })
