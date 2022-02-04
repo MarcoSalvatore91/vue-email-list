@@ -10,7 +10,11 @@
     <title>Vue Email List</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+        <ul>
+            <li v-for="email in emails">{{ email }}</li>
+        </ul>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
